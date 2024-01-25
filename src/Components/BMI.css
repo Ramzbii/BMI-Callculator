@@ -1,0 +1,58 @@
+.container-bmi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url(../asset/20230918071202.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.form-wrapper{
+    background-color: teal;
+    padding:50px;
+    color: white;
+    border-radius: 20px;
+}
+form{
+    width: 100%;
+}
+
+.input-wrapper input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 5px;
+}
+
+.input-wrapper{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1.tittle{
+    text-align: center;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-reload{
+    background-color: gray ;
+}
